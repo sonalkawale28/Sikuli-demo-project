@@ -9,7 +9,7 @@ import org.sikuli.script.Screen;
 public class SikuliDemo {
 public static void main(String[] args) throws FindFailed {
 	
-	
+	System.out.println("Main method starts........");
 	Pattern email=new Pattern("F:\\Selenium\\Sikuli tool\\Facebookimg\\email.PNG");
 	Pattern password=new Pattern("F:\\Selenium\\Sikuli tool\\Facebookimg\\password.PNG");
 	Pattern login=new Pattern("F:\\Selenium\\Sikuli tool\\Facebookimg\\login.PNG");
@@ -29,7 +29,7 @@ public static void main(String[] args) throws FindFailed {
 	screen.type(email, "divyapunjabi123@gmail");
 	screen.type(password, "fghfjh");
 	screen.click(login);
-	
+	System.out.println("Git changes.......");
 	
 }
 }
