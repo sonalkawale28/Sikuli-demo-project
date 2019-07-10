@@ -20,6 +20,7 @@ public static void main(String[] args) throws FindFailed {
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.facebook.com/");
 	driver.manage().window().maximize();
+	System.out.println("Browser is maximized");
 	
 	Screen screen=new Screen();
 	screen.click(forgotpass);
